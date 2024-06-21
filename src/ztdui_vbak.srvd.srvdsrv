@@ -1,0 +1,13 @@
+@EndUserText.label: 'Service Definition for SO'
+define service ZTDUI_VBAK {
+  expose ZTDC_VBAK  as SalesHeader;
+  expose ZTDC_VBEP  as Schedule;
+  expose ZTDC_VBAP  as SalesItem;
+  expose ZTDC_LIKP  as Delivery;
+  expose ZTDC_LIPS  as DeliveryItem;
+  expose ZTDC_MSEG  as Material;
+  expose ZTDC_VBRP  as Billing;
+  expose ZTDC_BKPF  as AccountingHeader;
+  expose ZTDC_BKPF2 as AccountingHeader2;
+  expose ZTDC_BSEG  as AccountingItem;
+}
